@@ -8,6 +8,7 @@ import { ConfigService } from './config.service';
       useValue: new ConfigService(),
     },
   ],
+  exports: [ConfigService]
 })
 export class ConfigModule {
 }

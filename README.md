@@ -74,3 +74,18 @@ npm i -D dotenv @types/dotenv
 ```shell script
 nest g module config
 ```
+
+## Contenedor postgres
+```shell script
+docker run -d -p 5444:5432 --name postgress -e POSTGRES_PASSWORD=secret postgres
+```
+
+## Instalar el ORM para postgress
+```shell script
+npm i @nestjs/typeorm typeorm pg
+```
+
+## Crear modulo de base de datos
+```shell script
+nest g module database
+```
