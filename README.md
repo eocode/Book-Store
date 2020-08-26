@@ -8,6 +8,14 @@
 
 Tienda de libros
 
+## Nestjs usa TypeORM
+
+https://typeorm.io
+
+## Documentación NestJS
+
+https://docs.nestjs.com
+
 ## Instalación
 
 ```bash
