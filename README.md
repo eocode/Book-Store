@@ -89,3 +89,8 @@ npm i @nestjs/typeorm typeorm pg
 ```shell script
 nest g module database
 ```
+
+## Crear modulo de usuarios
+```shell script
+nest g module modules/user
+```
